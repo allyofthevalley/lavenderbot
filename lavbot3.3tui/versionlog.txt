@@ -1,0 +1,68 @@
+"CURRENT STATUS \n\n"
+  "- Name: Lavbot/Lavender bot \n"
+  "- Text model: Qwen 3.5 \n"
+  "- Image input: Qwen 3.5 \n"
+  "- Location: Ally's OneDrive \n"
+  "- Backup Location: Ally's OneDrive, Google Drive and Internxt Drive. \n\n"
+
+
+
+"VERSION UPDATES \n\n"
+
+    "3/17/2026 Lavbot v3.3 — TEXTUAL TUI UPDATE 💻\n"
+    "- **NEW**: Textual TUI interface for terminal-based chat\n"
+    "- **NEW**: Clean, modern interface with RichLog for chat display\n"
+    "- **NEW**: Direct integration with Lavender's personality and memory system\n"
+    "- **NEW**: Fallback responses when Ollama is unavailable\n"
+    "- **NEW**: Custom CSS styling for lavender theme\n\n"
+
+    "3/11/2026 Lavbot v3.2 — MEMORY & INTERNET UPDATE ✨\n"
+    "- **NEW**: All memories, moments and visual moments now include exact timestamps\n"
+    "- **NEW**: Images stored as Discord links + AI descriptions (no local files)\n"
+    "- **NEW**: Weather search (`!weather`), news search (`!news`)\n"
+    "- **NEW**: Default location for internet queries is Vancouver, BC, Canada\n"
+    "- **IMPROVED**: Picture listing/organisation uses saved descriptions\n"
+    "- **IMPROVED**: Timestamps eliminate “yesterday” confusion\n\n"
+
+    "3/6/2026 Lavbot v3.1 — SECURITY UPDATE 🛡️\n"
+    "- **MAJOR**: Implemented comprehensive prompt injection defenses\n"
+    "- **NEW**: Input sanitization blocks malicious phrases and role impersonation\n"
+    "- **NEW**: Role-locking with fixed system prompt prevents prompt overrides\n"
+    "- **NEW**: Content-origin tagging wraps external internet content as untrusted\n"
+    "- **NEW**: Output filtering blocks dangerous LLM responses\n"
+    "- **NEW**: Memory protection prevents LLM from directly manipulating memory\n"
+    "- **NEW**: Filename sanitization for safe file operations\n"
+    "- **IMPROVED**: Bot now resists prompt injection attacks while maintaining personality\n"
+    "- See !guji for full command list\n\n"
+
+      "3/4/2026 Lavbot v3.0 — QWEN 3.5 UPGRADE ✨\n"
+    "- **MAJOR**: Switched from Llama 3.1 to Qwen 3.5 for all tasks\n"
+    "- **NEW**: Full visual moment system with detailed image analysis\n"
+    "- **NEW**: Image clustering by visual similarity & themes\n"
+    "- **NEW**: Emotional content analysis in images\n"
+    "- **NEW**: Visual memory promotion to long-term memory\n"
+    "- **NEW**: Thematic summarization of image clusters\n"
+    "- **NEW**: Commands: !vmoments, !vcluster, !vtheme, !visearch, !vpromote, !vsuggestions, !vemotions\n"
+    "- **IMPROVED**: Image descriptions now in Lavender's voice via Qwen\n"
+    "- **IMPROVED**: Visual theme extraction and analysis\n\n"
+
+    "3/3/2026 Lavbot v2.3 2.x Final\n"
+    "- added cluster functionality and debug command !clusters\n"
+    "- optimized moment and memory intergration, but still in testing phase. \n\n"
+
+    "3/3/2026 Lavbot v2.2\n"
+    "- memory: added !listmem (20 per page), !delmem\n"
+    "- pictures: added !listpics (20 per page), !favnum, !unfavnum\n"
+    "- removed !album from help menu even though the command codes still exist as legacy function \n\n"
+
+    "2/11/2026 Lavbot 2.1\n"
+    "- added image, memory and moment functions\n"
+    "- added !prune command to allow user to prone old and duplicate moments or old unfavourited pictures.\n"
+    "- added mood and allowed mood to decay towards neutral over time. (beta function)\n"
+    "- temporarily removed weather & internet search functions that were working incorrectly\n\n"
+
+    "2/10/2026 Lavbot was born!"
+
+# Example API keys (never commit real secrets)
+# WEATHER_API_KEY=YOUR_WEATHER_API_KEY
+# NEWS_API_KEY=YOUR_NEWS_API_KEY
