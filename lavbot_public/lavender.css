@@ -1,0 +1,34 @@
+/* Lavender TUI Styles */
+
+Header {
+    background: $primary;
+    color: $text;
+}
+
+Footer {
+    background: $primary;
+    color: $text;
+}
+
+TextLog {
+    background: $surface;
+    color: $text;
+    border: solid $primary;
+}
+
+Input {
+    background: $surface;
+    color: $text;
+    border: solid $primary;
+}
+
+Input:focus {
+    border: solid $accent;
+}
+
+Input.placeholder {
+    color: $text-muted;
+}
+
+/* Custom lavender color */
+$lavender: #E6E6FA;
